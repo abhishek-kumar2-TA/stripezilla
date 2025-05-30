@@ -1,0 +1,15 @@
+"use strict";(self.webpackChunkstorybook_web_component=self.webpackChunkstorybook_web_component||[]).push([[141],{"./src/grid/GridContainer.stories.tsx":(__unused_webpack_module,__webpack_exports__,__webpack_require__)=>{__webpack_require__.r(__webpack_exports__),__webpack_require__.d(__webpack_exports__,{CodeAndAccessibility:()=>CodeAndAccessibility,__namedExportsOrder:()=>__namedExportsOrder,default:()=>__WEBPACK_DEFAULT_EXPORT__});__webpack_require__("../../packages/ui/dist/index.js");var lit__WEBPACK_IMPORTED_MODULE_1__=__webpack_require__("../../node_modules/lit/index.js");const __WEBPACK_DEFAULT_EXPORT__={title:"Grid/ta-grid-container",component:"ta-grid-container",parameters:{controls:{expanded:!0}},argTypes:{showSideMargin:{control:{type:"boolean"},description:"when true, adds left and right margin to the container.",table:{defaultValue:{summary:"false"}}},restrictHeightToMaxContent:{control:{type:"boolean"},description:"by default container occupies available height. mark this as true in case you want to restrict it to its content.",table:{defaultValue:{summary:"false"}}}}},CodeAndAccessibility=(args=>lit__WEBPACK_IMPORTED_MODULE_1__.qy`
+  <ta-grid-container
+    style="background: yellowgreen;"
+    .showSideMargin="${args.showSideMargin}"
+    .restrictHeightToMaxContent="${args.restrictHeightToMaxContent}">
+    Container</ta-grid-container
+  >
+  <ta-grid-container .showSideMargin="${!1}">
+    <ta-grid-column
+      ><div class="story-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></ta-grid-column
+    >
+    <ta-grid-column><div class="story-description">${"The <ta-grid-container> web component creates a 12-column grid layout, serving as a container for grid-based content. It allows for responsive and flexible design by automatically distributing available space into 12 equal-width columns. Additionally, <ta-grid-container> can contain other <ta-grid-container> elements as child components, allowing for nested grid layouts. This makes it easy to structure complex layouts with multiple levels of nested grids, ensuring a consistent and scalable design approach."}</div></ta-grid-column>
+  </ta-grid-container>
+`).bind({});CodeAndAccessibility.args={showSideMargin:!1,restrictHeightToMaxContent:!1};const __namedExportsOrder=["CodeAndAccessibility"];CodeAndAccessibility.parameters={...CodeAndAccessibility.parameters,docs:{...CodeAndAccessibility.parameters?.docs,source:{originalSource:'args => html`\n  <ta-grid-container\n    style="background: yellowgreen;"\n    .showSideMargin="${args.showSideMargin}"\n    .restrictHeightToMaxContent="${args.restrictHeightToMaxContent}">\n    Container</ta-grid-container\n  >\n  <ta-grid-container .showSideMargin="${false}">\n    <ta-grid-column\n      ><div class="story-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></ta-grid-column\n    >\n    <ta-grid-column><div class="story-description">${description}</div></ta-grid-column>\n  </ta-grid-container>\n`',...CodeAndAccessibility.parameters?.docs?.source}}}}}]);
+//# sourceMappingURL=grid-GridContainer-stories.f296dc87.iframe.bundle.js.map

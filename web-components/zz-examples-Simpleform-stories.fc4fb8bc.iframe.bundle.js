@@ -1,0 +1,8 @@
+"use strict";(self.webpackChunkstorybook_web_component=self.webpackChunkstorybook_web_component||[]).push([[958],{"./src/zz-examples/Simpleform.stories.ts":(__unused_webpack_module,__webpack_exports__,__webpack_require__)=>{__webpack_require__.r(__webpack_exports__),__webpack_require__.d(__webpack_exports__,{SimpleForm:()=>SimpleForm,__namedExportsOrder:()=>__namedExportsOrder,default:()=>__WEBPACK_DEFAULT_EXPORT__});var lit__WEBPACK_IMPORTED_MODULE_0__=__webpack_require__("../../node_modules/lit/index.js");const __WEBPACK_DEFAULT_EXPORT__={title:"Example/SimpleForm",component:"ta-button"},SimpleForm=(()=>lit__WEBPACK_IMPORTED_MODULE_0__.qy`
+    <ta-grid-container>
+      <form @submit="${event=>{event.preventDefault(),alert("form Button clicked!")}}">
+        <ta-button type="submit">Button</ta-button>
+      </form>
+    </ta-grid-container>
+  `).bind({});SimpleForm.args={};const __namedExportsOrder=["SimpleForm"];SimpleForm.parameters={...SimpleForm.parameters,docs:{...SimpleForm.parameters?.docs,source:{originalSource:'() => {\n  const onFormSubmit = (event: FormEvent) => {\n    event.preventDefault();\n    alert(\'form Button clicked!\');\n  };\n  return html`\n    <ta-grid-container>\n      <form @submit="${onFormSubmit}">\n        <ta-button type="submit">Button</ta-button>\n      </form>\n    </ta-grid-container>\n  `;\n}',...SimpleForm.parameters?.docs?.source}}}}}]);
+//# sourceMappingURL=zz-examples-Simpleform-stories.fc4fb8bc.iframe.bundle.js.map

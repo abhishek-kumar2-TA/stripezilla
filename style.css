@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fdfdfd;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    color: #0A275C;
+    background: #FF6B6B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #0A275C;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
+
+h2 {
+    padding: 2rem 0 0;
+    font-size: 2rem;
+    color: #0A275C;
+}
+
+.ds-libraries-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    padding: 0.5rem 1rem 0;
+    color: #FF6B6B;
+}
+
+.lib-description {
+    flex-grow: 1;
+}
+
+.lib-description {
+    padding: 0.5rem 1rem 0.5rem;
+}
+
+.cta a {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #0A275C;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cta a:hover, .header-links a:hover {
+    text-decoration: underline;
+}
+
+.external-resources {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.external-resource-container {
+    width: 180px;
+    border-radius: 8px;
+    border: 1px solid #0A275C;
+    margin-top: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.external-resource-title {
+    background: #0A275C;
+    color: #fdfdfd;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+}
+
+.external-resource-description {
+    flex-grow: 1;
+}
+
+.external-resource-description, .external-resource-action {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.external-resource-action a {
+    text-decoration: none;
+    color: #FF6B6B;
+    font-style: italic;
+}
